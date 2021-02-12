@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">skyscanner</string>
+    <string name="locale">US</string>
+
+    //prefernces
+    <string name="preferences_title">"Regional settings"</string>
+    <string name="preferences_country">Country / Region</string>
+    <string name="preferences_currency">Currency</string>
+    <string name="preferences_button_save">Save</string>
+
+    //search
+    <string name="search_title">Let the journey begin</string>
+    <string name="search_from">From</string>
+    <string name="search_to">To</string>
+    <string name="search_button_search">Search flights</string>
+
+    //quotes
+    <string name="quotes_title">Flights</string>
+    <string name="quotes_dialog_message">You should select places</string>
+</resources>

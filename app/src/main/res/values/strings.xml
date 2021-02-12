@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">skyscanner</string>
+    <string name="locale">RU</string>
+
+    //prefernces
+    <string name="preferences_title">Региональные настройки</string>
+    <string name="preferences_country">Страна</string>
+    <string name="preferences_currency">Валюта</string>
+    <string name="preferences_button_save">Сохранить</string>
+
+    //search
+    <string name="search_title">Путешествия начинаются</string>
+    <string name="search_from">Откуда</string>
+    <string name="search_to">Куда</string>
+    <string name="search_button_search">Найти билеты</string>
+
+    //quotes
+    <string name="quotes_title">Авиабилеты</string>
+    <string name="quotes_dialog_message">Выбирите откуда и куда полетим</string>
+</resources>
