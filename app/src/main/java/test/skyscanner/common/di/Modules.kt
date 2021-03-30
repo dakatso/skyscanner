@@ -1,7 +1,8 @@
 package test.skyscanner.common.di
 
 import android.content.Context
-import androidx.datastore.preferences.createDataStore
+import androidx.datastore.preferences.core.PreferenceDataStoreFactory
+import androidx.datastore.preferences.preferencesDataStoreFile
 import androidx.room.Room
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -41,7 +42,7 @@ object Modules {
                 .build()
                 .create(ApiService::class.java)
         }
-        single { get<Context>().createDataStore(DATASTORE) }
+        single { PreferenceDataStoreFactory.create { get<Context>().preferencesDataStoreFile(DATASTORE) } }
 
         single { Room.databaseBuilder(get(), Database::class.java, Database.NAME).build() }
 
